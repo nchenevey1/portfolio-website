@@ -1,0 +1,51 @@
+:root {
+  --clr-title: rgb(255, 100, 45);
+  --clr-title1: rgb(110, 20, 80);
+  --clr-title2: rgb(80, 145, 235);
+  --clr-title3: rgb(0, 155, 155);
+  --clr-blue: #5091eb;
+  --clr-gridbackground: #24241f;
+  --clr-grid: #009999;
+  --clr-gradient1: rgb(220, 30, 80);
+  --clr-glassgrad1: rgba(200, 200, 200, 0.8);
+  --clr-glassgrad2: rgba(200, 200, 200, 0.1);
+  --clr-glassline: rgba(220, 30, 80, 0.2);
+  --clr-links: rgb(0, 247, 255);
+  --clr-gridshadow: #dd5277;
+  --clr-bodybackground: #202020;
+}
+
+.resume-button {
+    background-color: var(--clr-title3);
+    border: solid 1px var(--clr-title3);
+    color: rgb(255,255,255);
+    font-weight: 700;
+    width: max-content;
+    padding: 13px 22px;
+    /* margin-right: 50px; */
+    text-transform: uppercase;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all .3s ease-in-out 0s;
+  }
+  .resume-button:hover {
+    background-color: rgb(0, 205, 205);
+  }
+
+  /* Media Query */
+  @media (max-width: 768px) {
+    .resume-button {
+      font-size: 15px;
+      padding: 12px 18px;
+      margin-right: 0px;
+    }
+  }
+  @media (max-width: 320px) {
+    .resume-button {
+      font-size: 12px;
+    }
+  }

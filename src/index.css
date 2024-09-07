@@ -1,0 +1,49 @@
+#font-face {
+  font-family: 'Rubik';
+  src: local('Rubik'), url('./assets/fonts/Rubik-Light.ttf') format('woff');
+}
+
+:root {
+  --rows: ;
+  --columns: ;
+  --tilesize: 65;
+  --clr-title: rgb(255, 100, 45);
+  --clr-title1: rgb(110, 20, 80);
+  --clr-title2: rgb(80, 145, 235);
+  --clr-title3: rgb(0, 155, 155);
+  --clr-blue: #5091eb;
+  --clr-gridbackground: #24241f;
+  --clr-grid: #009999;
+  --clr-gradient1: rgb(220, 30, 80);
+  --clr-glassgrad1: rgba(200, 200, 200, 0.8);
+  --clr-glassgrad2: rgba(200, 200, 200, 0.1);
+  --clr-glassline: rgba(220, 30, 80, 0.2);
+  --clr-links: rgb(0, 247, 255);
+  --clr-gridshadow: #dd5277;
+  --clr-bodybackground: #202020;
+}
+
+body {
+  margin: 0;
+  font: 20px / 25px Rubik, "Rubik", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--clr-bodybackground);
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@media (max-width: 1080px) {
+  html,
+  body {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,58 @@
+.project-card {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: transform 500ms ease;
+    border: 1px solid rgba(211, 211, 211, 0.397);
+    padding: 1rem;
+}
+
+.image-div {
+    text-align: center;
+    height: 20rem;
+}
+
+.project-img {
+    width: 280px;
+}
+
+.project-details {
+    text-align: center;
+}
+
+.project-title {
+    color: rgb(0,0,0);
+    font-size: calc(20px + 0.3rem);
+    line-height: 15px;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.project-description {
+    color: rgb(0,0,0);
+    font-size: calc(15px + 0.1rem);
+    line-height: 1.5rem;
+    font-weight: 200;
+    height: 100px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.project-skills-title {
+    color: rgb(0,0,0);
+    font-size: calc(13px + 0.3rem);
+    line-height: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.project-icons {
+    height: 55px;
+    width: auto;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}

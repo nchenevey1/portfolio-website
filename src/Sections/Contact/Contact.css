@@ -1,0 +1,49 @@
+.contact-main {
+    width: 90%;
+    padding: 20px 10px;
+    margin: 0px auto;
+}
+
+.contact-header {
+    font-size: 56px;
+    font-weight: bold;
+    color: rgb(255,255,255);
+    font-family: Astron-Boy-Video, Rubik, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.email-div {
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.contact-email {
+    font-size: calc(20px + 0.5rem);
+    color: rgb(255,255,255);
+    text-decoration: none;
+}
+
+.disclaimer-text {
+    font-size: calc(10px + 0.5rem);
+    font-style: italic;
+    color: rgb(255,255,255);
+    text-align: center;
+}
+
+/* Media Query */
+@media (max-width: 1380px) {
+    .contact-header {
+        font-size: 50px;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .contact-header {
+        font-size: 30px;
+        text-align: center;
+    }
+    .contact-email {
+        font-size: calc(10px + 0.5rem);
+        color: rgb(255,255,255);
+    }
+}

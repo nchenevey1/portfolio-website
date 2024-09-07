@@ -1,0 +1,65 @@
+.experience-cards-div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 1rem 1rem;
+}
+
+.experience-header {
+    font-size: 56px;
+    font-weight: bold;
+    color: rgb(255,255,255);
+    font-family: Verdana, Rubik, Geneva, Tahoma, sans-serif;
+}
+
+.experience-text-desc {
+    font-size: 14px;
+}
+
+.experience-bullets {
+    padding-bottom: 10px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.anchor {
+    display: block;
+    position: relative;
+    top: -73px;
+    visibility: hidden;
+}
+
+.experience-container {
+    display: flex;
+    width: 90%;
+    padding: 20px 10px;
+    margin: 0px auto;
+    margin-top: 2rem;
+}
+
+.experience-container>* {
+    flex: 1;
+}
+
+/* Media Query */
+@media (max-width: 1610px) {
+
+    .experience-cards-div {
+        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    }
+}
+
+@media (max-width: 1380px) {
+    .experience-header {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .experience-cards-div {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+    .experience-header {
+        font-size: 30px;
+        text-align: center;
+    }
+}

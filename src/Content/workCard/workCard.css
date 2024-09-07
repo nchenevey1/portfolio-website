@@ -1,0 +1,82 @@
+.work-card {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: transform 500ms ease;
+    border: 1px solid rgba(211, 211, 211, 0.397);
+}
+
+.work-card:hover {
+    transform: scale(1.03);
+}
+
+.work-card-banner {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7));
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.work-card-role {
+    position: absolute;
+    background: transparent;
+    height: 4rem;
+    top: 1rem;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+
+.work-title-text {
+    text-align: center;
+    padding: 0.5rem;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-size: calc(25px + 0.2rem);
+    text-align: center;
+    font-weight: 700;
+    text-overflow: ellipsis;
+}
+
+.work-info {
+    padding: 1rem;
+}
+
+.work-duration {
+    text-align: center;
+    color: rgba(0, 0, 0);
+    font-size: calc(20px + 0.1rem);
+    margin: 0px;
+    padding-top: 0.8rem;
+    font-weight: 600;
+}
+
+.company-title {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: calc(23px + 0.3rem);
+    margin-bottom: 0rem;
+    line-height: normal;
+}
+
+.job-description {
+    text-align: center;
+}
+
+/* Media Query */
+
+@media (max-width: 1380px) {
+
+}
+
+@media (max-width: 768px) {
+
+}

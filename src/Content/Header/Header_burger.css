@@ -1,0 +1,119 @@
+
+
+
+.header {
+    margin: 0;
+    padding: 15px 35px;
+    background-color: white;
+    width: calc(100% - 70px);
+}
+.header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+.header li a {
+    display: block;
+    padding: 18px 18px;
+    text-decoration: none;
+    color: black;
+}
+.header li a:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+/* ------- Burger ------- */
+.header .nav-menu {
+    max-height: 0;
+    -webkit-transition: max-height 0.3s ease-out;
+    transition: max-height 0.3s ease-out;
+}
+
+.header .burger {
+    display: block;
+    cursor: pointer;
+    user-select: none;
+    float: right;
+    padding: 30px 22px;
+    position: relative;
+}
+
+.header .burger .bar {
+    display: block;
+    position: relative;
+    width: 25px;
+    height: 3px;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background-color: black;
+}
+
+.header .burger .bar:before,
+.header .burger .bar:after {
+    display: block;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    background-color: black;
+}
+
+.header .burger .bar:before {
+    top: 8px;
+}
+
+.header .burger .bar:after {
+    top: -8px;
+}
+
+.header .b-button {
+    display: none;
+}
+
+.header .b-button:checked ~ .nav-menu {
+    max-height: 370px;
+}
+
+.header .b-button:checked ~ .burger .bar {
+    background: transparent;
+}
+
+.header .b-button:checked ~ .burger .bar::before {
+    transform: rotate(-45deg);
+}
+
+.header .b-button:checked ~ .burger .bar::after {
+    transform: rotate(45deg);
+}
+
+.header .b-button:checked ~ .burger:not(.steps) .bar:before,
+.header .b-button:checked ~ .burger:not(.steps) .bar:after {
+    top: 0;
+}
+
+@media (min-width: 48em) {
+    .header li {
+        float: left;
+    }
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .header .nav-menu {
+        max-height: none;
+    }
+    .header .burger {
+        display: none;
+    }
+}
+
+@media (max-width: 960px) and (min-width: 786px) {
+    .header {
+        font-size: 12px;
+    }
+}
