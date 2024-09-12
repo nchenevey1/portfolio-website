@@ -23,10 +23,9 @@
 .project-title {
     color: rgb(0,0,0);
     font-size: calc(20px + 0.3rem);
-    line-height: 15px;
     font-weight: bold;
     margin-bottom: 0;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .project-description {
@@ -55,4 +54,11 @@ ul {
     width: auto;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
+}
+
+@media (max-width: 686px) {
+    .image-div {
+        height: auto;
+        overflow: auto;
+    }
 }

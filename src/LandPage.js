@@ -1,6 +1,7 @@
 
 const about = {
   title: "Nicholas Chenevey",
+  subTitle: "Looking for Work",
   subTitle1: "MS Electrical Engineering, BSc Mechatronic Engineering",
   subTitle2: "Robotics | Perception | Machine Learning",
   resume: "https://github.com/nchenevey1"
@@ -47,6 +48,17 @@ const careerExperiences = {
 
 const projectExperiences = {
   project: [
+    {
+      image: require("./assets/images/gimp_demo_thumbnail.png"),
+      gif: require("./assets/images/gimp_demo.gif"),
+      title: "GIMP-ComfyUI Plugin",
+      description: "Code on Github. GIMP Plugins, ComfyUI Nodes allowing for communication between the two using WebSocket.",
+      skills: [
+        require("./assets/images/python.png"),
+        require("./assets/images/GIMP_Icon.png"),
+        require("./assets/images/comfy_Icon.png")
+      ]
+    },
     {
       image: require("./assets/images/PyTetris.png"),
       gif: require("./assets/images/PyTetris.gif"),

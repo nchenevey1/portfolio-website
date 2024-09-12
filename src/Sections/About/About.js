@@ -13,6 +13,7 @@ export default function About() {
                 {about.title}
                 {" "}
               </h1>
+              <p className="about-title-p subTitleWork">{about.subTitle}</p>
               <p className="about-title-p subTitle">{about.subTitle1}</p>
               <p className="about-title-p subTitle">{about.subTitle2}</p>
               {<div className="resume-button-container">
