@@ -11,16 +11,19 @@ function Header() {
                 <span className="bar"></span>
             </label>
             <ul className="nav-menu">
+                <li>
+                    <a href="#about" onClick={toggleCheckbox}>About</a>
+                </li>
                 { exp === true && 
                     <li>
                         <a href="#experience" onClick={toggleCheckbox}>Work Experience</a>
                     </li>
                 }
                 <li>
-                    <a href="#skills" onClick={toggleCheckbox}>Academics</a>
+                    <a href="#projects" onClick={toggleCheckbox}>Projects</a>
                 </li>
                 <li>
-                    <a href="#projects" onClick={toggleCheckbox}>Projects</a>
+                    <a href="#skills" onClick={toggleCheckbox}>Academics</a>
                 </li>
                 <li>
                     <a href="#contact" onClick={toggleCheckbox}>Contact</a>

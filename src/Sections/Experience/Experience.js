@@ -8,7 +8,7 @@ export default function CareerExperience() {
     if(careerExperiences.viewExperiences){
         return (
             <div>
-                <div class="anchor" id="experience"></div>
+                <div className="anchor" id="experience"></div>
                 <div className="experience-container" id="workExperience">
                     <div>
                         <h1 className="experience-header">Work Experience</h1>

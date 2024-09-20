@@ -6,7 +6,7 @@ import { coursesSection } from "../../LandPage";
 export default function Skills() {
   return (
     <div className="skills-main">
-        <div class="anchor" id="skills"></div>
+        <div className="anchor" id="skills"></div>
         <div className="skills-text-div">
           <h1 className="skills-heading">{coursesSection.title} </h1>
           <p className="skills-text-subtitle">{coursesSection.coursesSubTitle}</p>

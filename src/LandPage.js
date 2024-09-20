@@ -2,7 +2,7 @@
 const about = {
   title: "Nicholas Chenevey",
   subTitle: "Looking for Work",
-  subTitle1: "MS Electrical Engineering, BSc Mechatronic Engineering",
+  subTitle1: "MS Electrical Engineering, BSc Mechatronic Engineering, EIT Other Disciplines",
   subTitle2: "Robotics | Perception | Machine Learning",
   resume: "https://github.com/nchenevey1"
 };
@@ -56,7 +56,8 @@ const projectExperiences = {
       skills: [
         require("./assets/images/python.png"),
         require("./assets/images/GIMP_Icon.png"),
-        require("./assets/images/comfy_Icon.png")
+        require("./assets/images/comfy_Icon.png"),
+        require("./assets/images/IP_Icon.png")
       ]
     },
     {
@@ -153,6 +154,42 @@ const coursesSection = {
       courseID: "482",
       courseTitle: "MECA 482 Control System Design",
       courseDescription: "Modeling and simulation of dynamic system performance. Control system design for continuous systems using both analog and digital control techniques",
+      courseColor: "rgb(156, 36, 60)"
+    },
+    {
+      courseID: "380",
+      courseTitle: "MECA 380 Measurements and Instrumentation",
+      courseDescription: "Measurement of steady-state and dynamic systems using standard laboratory instruments. Calibration, dynamic response of instruments, statistical treatment of data, and applied feedback control systems.",
+      courseColor: "rgb(156, 36, 60)"
+    },
+    {
+      courseID: "344",
+      courseTitle: "EECE 344 Digital Systems Design",
+      courseDescription: "Microcontrollers, architecture, bus organization and address decoding. Design concepts for microcontroller systems, including A/D and D/A conversion, serial communications, bus interfacing, interrupt processing, power regulations, timers, pulse width modulation, programmable I/O ports, and error control coding.",
+      courseColor: "rgb(156, 36, 60)"
+    },
+    {
+      courseID: "340",
+      courseTitle: "MECH 340 Mechanical Engineering Design",
+      courseDescription: "Design and performance of machine components and systems subjected to both steady and variable loading conditions. Introduction to failure theories, reliability, use of codes and standards, and standard design practices.",
+      courseColor: "rgb(156, 36, 60)"
+    },
+    {
+      courseID: "315",
+      courseTitle: "EECE 315 Electronics",
+      courseDescription: "Ideal diodes. Zener diodes and regulation. Photodiodes and solar cells. Biasing and DC behavior of bipolar transistors. JFETs and MOSFETS. Small-signal AC equivalent circuits. Single-state transistor amplifiers. Low-frequency response. Discrete feedback amplifiers.",
+      courseColor: "rgb(156, 36, 60)"
+    },
+    {
+      courseID: "311",
+      courseTitle: "EECE 311 Linear Circuits II",
+      courseDescription: "Advanced concepts related to analysis and applications of linear circuits. Including analysis of circuits with dependent sources, Thévenin equivalents, Fourier series, multi-stage operational amplifier circuits, transfer functions, magnitude and phase response, filter applications and design, transient analysis with Laplace Transforms.",
+      courseColor: "rgb(156, 36, 60)"
+    },
+    {
+      courseID: "237",
+      courseTitle: "EECE 237 Embedded Systems Development",
+      courseDescription: "Development of low level Embedded Systems Applications, using both Assembly Language and C. Including microprocessor architecture concepts, instruction set architectures, Assembly Language programming, data representations, interrupt handling and execution modes, low level C programming, and the use of on-chip and external peripherals.",
       courseColor: "rgb(156, 36, 60)"
     }
   ]
