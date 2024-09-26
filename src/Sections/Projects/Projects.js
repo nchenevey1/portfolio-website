@@ -10,7 +10,7 @@ export default function ProjectExperience() {
             <div className="anchor" id="projects"></div>
             <div className="projects-container" id="projectExperience">
                 <div>
-                    <h1 className="projects-heading">Projects</h1>
+                    <h1 className="projects-heading">Projects (Hover for Video)</h1>
                     <div className="project-cards-div">
                     {projectExperiences.project.map((card) => {
                         return (

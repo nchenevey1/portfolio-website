@@ -41,6 +41,7 @@
 @media (max-width: 1380px) {
     .projects-heading {
         font-size: 50px;
+        line-height: 50px;
     }
 }
 

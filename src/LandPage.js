@@ -52,12 +52,37 @@ const projectExperiences = {
       image: require("./assets/images/gimp_demo_thumbnail.png"),
       gif: require("./assets/images/gimp_demo.gif"),
       title: "GIMP-ComfyUI Plugin",
-      description: "Code on Github. GIMP Plugins, ComfyUI Nodes allowing for communication between the two using WebSocket.",
+      description: "Code on Github. GIMP Plugins, ComfyUI Nodes allowing for communication between the two using WebSocket. All processing performed on LAN with RTX 3060 6GB Vram.",
       skills: [
         require("./assets/images/python.png"),
+        require("./assets/images/cplusplus.png"),
         require("./assets/images/GIMP_Icon.png"),
         require("./assets/images/comfy_Icon.png"),
         require("./assets/images/IP_Icon.png")
+      ]
+    },
+    {
+      image: require("./assets/images/AI_Dance_thumbnail.png"),
+      gif: require("./assets/images/AI_Dance.gif"),
+      title: "Video-to-Video Diffusion",
+      description: "Image processing, filters, pose extraction, machine learning for video-to-video diffusion. All processing performed on LAN with RTX 3060 6GB Vram.",
+      skills: [
+        require("./assets/images/python.png"),
+        require("./assets/images/cplusplus.png"),
+        require("./assets/images/GIMP_Icon.png"),
+        require("./assets/images/comfy_Icon.png"),
+        require("./assets/images/IP_Icon.png")
+      ]
+    },
+    {
+      image: require("./assets/images/cart_pendulum.png"),
+      gif: require("./assets/images/cart_pendulum.gif"),
+      title: "Cart-Pendulum Control System",
+      description: "Cart and pendulum system dynamics modeled using MATLAB and Simulink. Controllability and observability determined through state space analysis.",
+      skills: [
+        require("./assets/images/python.png"),
+        require("./assets/images/control-systems.png"),
+        require("./assets/images/matlab-simulink.png")
       ]
     },
     {

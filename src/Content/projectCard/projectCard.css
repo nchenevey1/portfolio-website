@@ -13,7 +13,8 @@
 }
 
 .project-img {
-    width: 280px;
+    max-width: 300px;
+    max-height: 350px;
 }
 
 .project-details {
@@ -26,6 +27,7 @@
     font-weight: bold;
     margin-bottom: 0;
     margin-top: 40px;
+    height: 50px;
 }
 
 .project-description {
@@ -33,7 +35,7 @@
     font-size: calc(15px + 0.1rem);
     line-height: 1.5rem;
     font-weight: 200;
-    height: 100px;
+    height: 110px;
 }
 
 ul {
@@ -56,9 +58,12 @@ ul {
     margin-right: 0.5rem;
 }
 
-@media (max-width: 686px) {
+@media (max-width: 1080px) {
     .image-div {
         height: auto;
         overflow: auto;
+    }
+    .project-description {
+        height: 125px;
     }
 }
