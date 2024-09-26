@@ -13,8 +13,9 @@
 }
 
 .project-img {
-    max-width: 300px;
+    max-width: 100%;
     max-height: 350px;
+    overflow: hidden;
 }
 
 .project-details {
@@ -61,7 +62,7 @@ ul {
 @media (max-width: 1080px) {
     .image-div {
         height: auto;
-        overflow: auto;
+        overflow: hidden;
     }
     .project-description {
         height: 125px;
