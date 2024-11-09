@@ -35,7 +35,7 @@
 }
 
 .about-title {
-  font-size: calc(70px + 1rem);
+  font-size: calc(55px + 1rem);
   margin-top: 103px;
   line-height: 1.1;
   color: rgb(255,255,255);
@@ -43,13 +43,13 @@
 }
 
 .about-title-p {
-  font-size: calc(30px + 0.4rem);
+  font-size: calc(25px + 0.4rem);
   line-height: 40px;
   color: rgb(255,255,255);
 }
 
 .subTitleWork {
-  font-size: calc(40px + 0.4rem);
+  font-size: calc(30px + 0.4rem);
   font-weight: bold;
   line-height: 40px;
   color: rgb(255,255,255);
