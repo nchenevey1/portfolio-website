@@ -59,12 +59,60 @@ ul {
     margin-right: 0.5rem;
 }
 
-@media (max-width: 1080px) {
+@media (min-width: 687px) {
+    .project-card {
+        grid-column: span 2;
+        display: flex;
+        justify-content: space-between;
+        max-height: 25rem;
+    }
     .image-div {
-        height: auto;
-        overflow: hidden;
+        width: 50%;
+        height: 100%;
+    }
+    .project-img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .project-title {
+        height: fit-content;
+        margin-bottom: 0.4rem;
+    }
+    .project-details {
+        text-align: left;
+        padding: 1rem;
+        max-width: 50%;
+        height: fit-content;
+    }
+    .project-title {
+        margin-top: 0;
     }
     .project-description {
-        height: 125px;
+        margin: 0;
+        height: fit-content;
+    }
+    .project-skills-title {
+        margin-top: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+
+}
+
+@media (min-width: 1387px) {
+    .project-details {
+        height: 90%;
+    }
+    .project-img {
+        max-height: 21rem;
+    }
+    .project-title {
+        height: 3.5rem;
+    }
+    .project-description {
+        height: 8rem;
+    }
+    .project-skills-title {
+        margin-top: 2rem;
     }
 }
