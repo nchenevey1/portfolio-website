@@ -3,7 +3,7 @@
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     transition: transform 500ms ease;
-    border: 1px solid rgba(211, 211, 211, 0.397);
+    border: 3px solid rgba(211, 211, 211, 0.397);
 }
 
 .course-card:hover {
@@ -61,6 +61,7 @@
 
 .job-description {
     text-align: center;
+    max-height: fit-content;
 }
 
 /* Media Query */
