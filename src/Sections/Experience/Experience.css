@@ -15,12 +15,6 @@
     font-size: 14px;
 }
 
-.experience-bullets {
-    padding-bottom: 10px;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-}
-
 .anchor {
     display: block;
     position: relative;
@@ -44,7 +38,7 @@
 @media (max-width: 1610px) {
 
     .experience-cards-div {
-        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
     }
 }
 
